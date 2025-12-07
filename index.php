@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphics</title>
+    <style>
+        
+    </style>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom style -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+        <div class="header container-fluid">
+        <div class="container">
+            <div class="nav-head row">
+                <div class="col-9 col-sm-3">
+                    <img class="img-fluid logo" src="./assets/images/lg-1.png" alt="logo">
+                </div>
+                <div class="col-3 search">
+                    <i class="d-none d-md-block fa-solid fa-magnifying-glass text-white fs-3 i"></i>
+                    <i class="d-block d-md-none fa-etch fa-solid fa-bars text-white fs-3 i" id="nav-card"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hh-hr" >
+    <div class="container-fluid bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="nav nav-bar d-none d-lg-flex">
+                    <div class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </div>
+                    <div class="dropdown nav-item">
+                        <button class="nav-link text-white bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Digital Printing
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="./assets/files/panaflex-print.php">Panaflex Printing</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/walpaper.php">Walpaper</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/vinyle.php">Vanyle</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/one-vision.php">One Way Vision</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/reflecter-diamond.php">Reflecter Diamond</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/vehicle-branding.php">Vehicle Branding</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/model.php">Shops Model</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/x-stand.php">Roll up/X-Stand</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown nav-item">
+                        <button class=" bg-transparent nav-link text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sign Board
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="./assets/files/front-lit.php">Front-Lit Board</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/back-lit.php">Back-Lit Board</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/two-d.php">2D Board</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/three-d.php">3D Board</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/logo-brand.php">Logo Branding</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/letter-3d.php">3D Letter</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/neom.php">NEOM</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/smds.php">SMDS</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown nav-item">
+                        <button class=" bg-transparent nav-link text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Offset Printing
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="./assets/files/card-print.php">Bussiness Card Printing</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/letter-head-print.php">Letter Head Printing</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/brocher-print.php">Brochure Printing</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/flyer-print.php">Flyer Printing</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/booklet-print.php">Booklet Printing</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/box-pack.php">Box Packaging</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/shoping-box.php">Shoping Bags Branding</a></li>
+                        </ul>
+                </div>
+                    <div class="dropdown nav-item">
+                        <button class=" bg-transparent nav-link text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Promotional Items
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="./assets/files/award-shield.php">Award Shield</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/t-shirts.php">T-Shirts</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/nothing.php">Mugs</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/nothing.php">Key Chains</a></li>
+                            <li><a class="dropdown-item" href="./assets/files/nothing.php">Souvenirs</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link text-white" href="./assets/files/about.php">About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec-1 container-fluid">
+        <div class="container">
+            <div class="row wel pt-2 pt-sm-5">
+                <div class="col">
+                    <h1 class="scroll-fade-up">
+                        <p>WELCOME</p>
+                        <p>TO</p>
+                        <p>HASSAN GRAPHICS</p>
+                    </h1>
+                </div>
+                <div class="col wel-btn">
+                    <button type="post" class="btn btn-danger rounded-pill start-btn">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec-2">
+        <div class="container content">
+            <div class="row d-block">
+                <div class="col small-spill border rounded-pill">
+                    <ul class="p-0 m-0">
+                        <li>🔴 Why Choose Us</li>
+                    </ul>
+                </div>
+                <h2 class="scroll-fade-up">HASSAN GRAPHICS FLEX</h2>
+                <div class="cards row p-0">
+                    <div class="col-12 col-sm-6 col-lg-3 mt-3">
+                        <div class="card card-anime">
+                            <div class="icon">
+                                <i class="fa-solid fa-stopwatch fs-1 i"></i>
+                            </div>
+                            <p class="mt-3 fs-4">INSTANT QUOTE</p>
+                            <p>Need top-quality design or printing services? At Lahore Graphics, we make it simple! Just fill out our quick form and get a custom quote instantly—no waiting, no hassle.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mt-3">
+                        <div class="card card-anime">
+                            <div class="icon">
+                                <i class="fa-solid fa-cart-arrow-down fs-2 i"></i>
+                            </div>
+                            <p class="mt-3 fs-4">COST EFFECTIVENESS</p>
+                            <p>Our in-house digital and offset printing facilities support our clients to meet their end-to-end requirements within the budget.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mt-3">
+                        <div class="card card-anime">
+                            <div class="icon">
+                                <i class="fa-solid fa-van-shuttle fs-2 i"></i>
+                            </div>
+                            <p class="mt-3 fs-4">FAST TURNAROUND</p>
+                            <p>We value our client’s time and always strive to ensure a fast turnaround to help our clients to capitalize on the moments.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mt-3">
+                        <div class="card card-anime">
+                            <div class="icon">
+                                <i class="fa-brands fa-servicestack fs-2 i"></i>
+                            </div>
+                            <p class="mt-3 fs-4">PERSONALIZED SERVICE</p>
+                            <p>Not sure what you want? Our friendly staff will help you find the right product (all kinds of Panaflex printing, Branding, and Advertising solutions) to meet all your branding needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+        </div>
+    </div>
+    <div class="sec-3 container-fluid">
+        <div class="container mt-2">
+            <div class="row">
+                <div class="content-sec3">
+                    <div class="col small-spill border rounded-pill">
+                        <ul class="px-3 m-0">
+                            <li>🟢 Selected Work Today</li>
+                        </ul>
+                    </div>
+                    <div class="sec3-head">
+                        <h2 class="h2 scroll-fade-up">Hassan Graphics Flex Is Here To Bring Your Ideas To Life.</h2>
+                    </div>
+                    <div class="sec3-cards row py-3">
+                        <div class="col-12 col-md-6">
+                            <div class="card card-anime p-3 my-3">
+                                <div class="card-text">
+                                    <b>Digital Printing</b>
+                                    <p>Panaflex Printing, Wallpaper, Vinyle, One Way Vision …</p>
+                                </div>
+                                <i>©</i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card card-anime p-3 my-3">
+                                <div class="card-text">
+                                    <b>SIGN BOARDS</b>
+                                    <p>Front lit Board, Back lit Board, 2D Board, 3D Board…</p>
+                                </div>
+                                <i>©</i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card card-anime p-3 my-3">
+                                <div class="card-text">
+                                    <b>OFFSET PRINTING</b>
+                                    <p>Bussiness Card Printing, Letterhead Printing, Brochure Printing...</p>
+                                </div>
+                                <i>©</i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="card card-anime p-3 my-3">
+                                <div class="card-text">
+                                    <b>PROMOTIONAL ITEMS</b>
+                                    <p>Award Shield, T-Shirts, Mugs, Key Chains...</p>
+                                </div>
+                                <i>©</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec-4 container-fluid p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 h-100">
+                    <div class="sec4-head">
+                        <div class="col small-spill border rounded-pill">
+                            <ul class="px-3 m-0">
+                                <li>🟢 Our Process</li>
+                            </ul>
+                        </div>
+                        <h2 class="h2 scroll-fade-up">Why Choose Us?</h2>
+                        <button class="btn btn-success border my-5 get-btn px-4 rounded-pill">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 h-100">
+                    <div class="points">
+                        <div class="p1">
+                            <h2 class="h2">1. Creative Designs</h2>
+                            <p>Our design team brings innovation and originality to every project.</p>
+                        </div>
+                            <hr class="my-4">
+                        <div class="p1">
+                            <h2 class="h2">2. Fast Delievery</h2>
+                            <p>We respect your deadlines and deliver on time, every time.</p>
+                        </div>
+                            <hr class="my-4">
+                        <div class="p1">
+                            <h2 class="h2">3. Affordable Rates</h2>
+                            <p>We respect your deadlines and deliver on time, every time.</p>
+                        </div>
+                            <hr class="my-4">
+                        <div class="p1">
+                            <h2 class="h2">4. Customer Satisfaction</h2>
+                            <p>We respect your deadlines and deliver on time, every time.</p>
+                        </div>
+                            <hr class="my-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec-5 container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col small-spill border rounded-pill">
+                        <ul class="px-3 m-0">
+                            <li>🟢 What I Offer</li>
+                        </ul>
+                    </div>
+                    <h2 class="head scroll-fade-up">Our Featured Products</h2>
+                </div>
+                <div class="row cards">
+                    <div class="col-12 col-lg-4  my-3">
+                        <div class="card card-1 card-anime p-3">
+                            <i class="fa-solid fa-layer-group fs-1 mb-2"></i>
+                            <h2>Flex Banner</h2>
+                            <div class="card-body my-3">
+                                <p>Perfect for promotions, events, and storefront displays.</p>
+                                <hr>
+                                <p>Weather-resistant materials ensure durability, indoors or out.</p>
+                                <hr>
+                                <p>Your brand, your message — loud, clear, and unmissable.</p>
+                                <hr>
+                            </div>
+                            <button class="btn border px-2 rounded-pill">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 my-3">
+                        <div class="card card-2 card-anime p-3">
+                            <i class="fa-solid fa-paint-roller fs-1 mb-2 text-white"></i>
+                            <h2>Vinyl Printing</h2>
+                            <div class="card-body my-3">
+                                <p>Smooth, sharp, and stunning — vinyl prints that elevate any space.</p>
+                                <hr>
+                                <p>Ideal for shop windows, walls, vehicles, or signage.</p>
+                                <hr>
+                                <p>Add a professional touch with sleek, long-lasting visuals.</p>
+                                <hr>
+                            </div>
+                            <button class="btn border px-2 rounded-pill">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4  my-3">
+                        <div class="card card-3 card-anime p-3">
+                            <i class="fa-solid fa-clipboard-check fs-1 mb-2 text-dark"></i>
+                            <h2>Custom Posters</h2>
+                            <div class="card-body my-3">
+                                <p>Designed to stand out, printed to impress.</p>
+                                <hr>
+                                <p>High-definition graphics that turn heads.</p>
+                                <hr>
+                                <p>Affordable marketing with maximum visual impact.</p>
+                                <hr>
+                            </div>
+                            <button class="btn border px-2 rounded-pill">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec-6 container-fluid">
+        <div class="container">
+            <div class="row content">
+                <div class="col-12 col-sm-9 col-md-6">
+                    <div class="image m-sm-3">
+                        <img class="card card-anime img-fluid" src="./assets/images/hassan.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-9 col-md-6 description pt-2">
+                    <div class="data">
+                        <div class="col small-spill border rounded-pill">
+                            <ul class="px-3 m-0">
+                                <li>🟢 CEO</li>
+                            </ul>
+                        </div>
+                        <div class="name">
+                            <h2 class="fs-1 scroll-fade-up">Hassan Raza Khan</h2>
+                        </div>
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fa-brands fa-whatsapp text-light rounded-pill bg-success p-3 mx-1 i"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook text-light rounded-pill bg-info p-3 mx-1 i"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram text-light rounded-pill bg-info p-3 mx-1 i"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-youtube text-light rounded-pill bg-danger p-3 mx-1 i"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container-fluid sec-7">
+        <div class="container">
+            <div class="row content">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h2 class="heading scroll-fade-up counter" data-target="20">0<sup>+</sup></h2> 
+                    <h3>Years of Experience</h3>
+                    <p>Decades of experience in delivering exceptional projects.</p>
+                </div>   
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h2 class="heading scroll-fade-up counter" data-target="50">0<sup>+</sup></h2>
+                    <h3>Projects Delivered</h3>
+                    <p>Decades of expereince in deleivring exceptional projects.</p>
+                </div>   
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h2 class="heading scroll-fade-up counter" data-target="98">0<sup>%</sup></h2>
+                    <h3>Client Satisfaction</h3>
+                    <p>I build long-term partnerships through proven results.</p>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <section class="sec-8">
+        <div class="container">
+            <div class="row content">
+                <iframe width="100%" height="400" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps?q=30.247291660158222,71.50003583545366&z=15&output=embed"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="rights">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>
+                        ® All Rights  Reserved. <a href="https://wa.me/+923176477078">Amir Developer</a>™.
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/animation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

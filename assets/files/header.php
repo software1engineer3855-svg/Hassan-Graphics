@@ -1,0 +1,105 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphics</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom style -->
+    <link rel="stylesheet" href="../style/style.css">
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="header container-fluid">
+        <div class="container">
+            <div class="nav-head row">
+                <div class="col-9 col-sm-3">
+                    <img class="img-fluid logo" src="../images/lg-1.png" alt="logo">
+                </div>
+                <div class="col-3 search">
+                    <i class="d-none d-md-block fa-solid fa-magnifying-glass text-white fs-3"></i>
+                    <i class="d-block d-md-none fa-etch fa-solid fa-bars text-white fs-3" id="nav-card"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hh-hr" >
+    <div class="container-fluid bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="nav nav-bar d-none d-lg-flex">
+                    <div class="nav-item">
+                        <a class="nav-link text-white" href="../../index.php">Home</a>
+                    </div>
+                    <div class="dropdown nav-item">
+                        <button class="nav-link text-white bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Digital Printing
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="./panaflex-print.php">Panaflex Printing</a></li>
+                            <li><a class="dropdown-item" href="./walpaper.php">Walpaper</a></li>
+                            <li><a class="dropdown-item" href="./vinyle.php">Vanyle</a></li>
+                            <li><a class="dropdown-item" href="./one-vision.php">One Way Vision</a></li>
+                            <li><a class="dropdown-item" href="./reflecter-diamond.php">Reflecter Diamond</a></li>
+                            <li><a class="dropdown-item" href="./vehicle-branding.php">Vehicle Branding</a></li>
+                            <li><a class="dropdown-item" href="./model.php">Shops Model</a></li>
+                            <li><a class="dropdown-item" href="./x-stand.php">Roll up/X-Stand</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown nav-item">
+                        <button class=" bg-transparent nav-link text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sign Board
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="./front-lit.php">Front-Lit Board</a></li>
+                            <li><a class="dropdown-item" href="./back-lit.php">Back-Lit Board</a></li>
+                            <li><a class="dropdown-item" href="./two-d.php">2D Board</a></li>
+                            <li><a class="dropdown-item" href="./three-d.php">3D Board</a></li>
+                            <li><a class="dropdown-item" href="./logo-brand.php">Logo Branding</a></li>
+                            <li><a class="dropdown-item" href="./letter-3d.php">3D Letter</a></li>
+                            <li><a class="dropdown-item" href="./neom.php">NEOM</a></li>
+                            <li><a class="dropdown-item" href="./smds.php">SMDS</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown nav-item">
+                        <button class=" bg-transparent nav-link text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Offset Printing
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="./card-print.php">Bussiness Card Printing</a></li>
+                            <li><a class="dropdown-item" href="./letter-head-print.php">Letter Head Printing</a></li>
+                            <li><a class="dropdown-item" href="./brocher-print.php">Brochure Printing</a></li>
+                            <li><a class="dropdown-item" href="./flyer-print.php">Flyer Printing</a></li>
+                            <li><a class="dropdown-item" href="./booklet-print.php">Booklet Printing</a></li>
+                            <li><a class="dropdown-item" href="./box-pack.php">Box Packaging</a></li>
+                            <li><a class="dropdown-item" href="./shoping-box.php">Shoping Bags Branding</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown nav-item">
+                        <button class=" bg-transparent nav-link text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Promotional Items
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="./award-shield.php">Award Shield</a></li>
+                            <li><a class="dropdown-item" href="./t-shirts.php">T-Shirts</a></li>
+                            <li><a class="dropdown-item" href="./nothing.php">Mugs</a></li>
+                            <li><a class="dropdown-item" href="./nothing.php">Key Chains</a></li>
+                            <li><a class="dropdown-item" href="./nothing.php">Souvenirs</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link text-white" href="./about.php">About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/animation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
